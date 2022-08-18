@@ -19,6 +19,7 @@ import Adminsingle from "./components/admin/pages/single/Adminsingle";
 import Adminlist from "./components/admin/pages/list/Adminlist";
 import Doctorinfo from "./components/Doctorlist/Doctorinfo";
 import Hospitalinfo from "./components/Hospitallist/Hospitalinfo";
+import Bookingsummary from "./components/pages/Bookingsummary";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route  path="/adminlogin" element={<Adminlogin/>}/> 
           <Route  path="/doctorinfo" element={<Doctorinfo/>}/>
           <Route  path="/hospitalinfo" element={<Hospitalinfo/>}/>
+          <Route path="bookingsummary" element={<Bookingsummary/>}/>
            <Route path="/users">
             <Route index element={<Adminlist/>}/>
             <Route path=":userId" element={<Adminsingle/>}/>

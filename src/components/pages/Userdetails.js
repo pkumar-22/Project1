@@ -190,6 +190,14 @@ const Userdetails = (props) => {
                       Check Out
                     </button>
                   </div>
+                  <div className="col-lg-7">
+                    <button type="submit" className="loginSubmit mb-2">
+                    <Link to="/bookingsummary" style={{ textDecoration: 'none' }}>
+                       Summary
+                    </Link>
+                      
+                    </button>
+                  </div>
                 </div>
               </form>
       </section>
